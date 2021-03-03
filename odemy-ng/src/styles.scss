@@ -399,7 +399,7 @@ Navbar Area CSS
                 }
                 &:focus {
                     border-color: var(--mainColor);
-    
+
                     &::placeholder {
                         color: transparent;
                     }
@@ -516,11 +516,11 @@ Navbar Area CSS
                             left: -270px;
                             margin-top: 15px;
                             visibility: hidden;
-                            
+
                             li {
                                 a {
                                     color: var(--blackColor);
-                                    
+
                                     &:hover, &:focus, &.active {
                                         color: var(--mainColor);
                                     }
@@ -530,11 +530,11 @@ Navbar Area CSS
                                     opacity: 0;
                                     left: 270px;
                                     visibility: hidden;
-        
+
                                     li {
                                         a {
                                             color: var(--blackColor);
-        
+
                                             &:hover, &:focus, &.active {
                                                 color: var(--mainColor);
                                             }
@@ -544,11 +544,11 @@ Navbar Area CSS
                                             opacity: 0;
                                             left: -270px;
                                             visibility: hidden;
-                
+
                                             li {
                                                 a {
                                                     color: var(--blackColor);
-                
+
                                                     &:hover, &:focus, &.active {
                                                         color: var(--mainColor);
                                                     }
@@ -559,11 +559,11 @@ Navbar Area CSS
                                                     left: 270px;
                                                     visibility: hidden;
                                                     transform: scaleY(0);
-                        
+
                                                     li {
                                                         a {
                                                             color: var(--blackColor);
-                
+
                                                             &:hover, &:focus, &.active {
                                                                 color: var(--mainColor);
                                                             }
@@ -574,11 +574,11 @@ Navbar Area CSS
                                                             left: -270px;
                                                             visibility: hidden;
                                                             transform: scaleY(0);
-                                
+
                                                             li {
                                                                 a {
                                                                     color: var(--blackColor);
-                
+
                                                                     &:hover, &:focus, &.active {
                                                                         color: var(--mainColor);
                                                                     }
@@ -588,11 +588,11 @@ Navbar Area CSS
                                                                     opacity: 0;
                                                                     left: 270px;
                                                                     visibility: hidden;
-                                        
+
                                                                     li {
                                                                         a {
                                                                             color: var(--blackColor);
-                
+
                                                                             &:hover, &:focus, &.active {
                                                                                 color: var(--mainColor);
                                                                             }
@@ -1154,7 +1154,7 @@ Main Banner Area CSS
     z-index: -1;
     text-align: center;
     right: 0;
-    
+
     img {
         animation: moveleftbounce 4s linear infinite;
     }
@@ -1244,7 +1244,7 @@ Main Banner Area CSS
     left: 40px;
     right: 0;
     text-align: center;
-    
+
     img {
         animation: moveleftbounce 4s linear infinite;
     }
@@ -1265,7 +1265,7 @@ Main Banner Area CSS
     z-index: -1;
     left: 12%;
     bottom: 8%;
-    
+
     img {
         animation: movebounce 4s linear infinite;
     }
@@ -1275,7 +1275,7 @@ Main Banner Area CSS
     z-index: -1;
     top: 30%;
     left: -12%;
-    
+
     img {
         animation: moveleftbounce 8s linear infinite;
     }
@@ -1672,7 +1672,7 @@ Main Banner Area CSS
     left: 0;
     top: 0;
     z-index: -1;
-    
+
     img {
         animation: movebounce 4s linear infinite;
     }
@@ -1682,7 +1682,7 @@ Main Banner Area CSS
     left: 0;
     bottom: -10px;
     z-index: -1;
-    
+
     img {
         animation: movebounce 4s linear infinite;
     }
@@ -1707,7 +1707,7 @@ Main Banner Area CSS
     right: 0;
     bottom: -10px;
     z-index: -1;
-    
+
     img {
         animation: movebounce 4s linear infinite;
     }
@@ -1717,7 +1717,7 @@ Main Banner Area CSS
     right: 400px;
     bottom: 0;
     z-index: -1;
-    
+
     img {
         animation: moveleftbounce 4s linear infinite;
     }
@@ -2307,7 +2307,7 @@ About Area CSS
     position: relative;
     z-index: 1;
     border-radius: 5px;
-    
+
     .image {
         overflow: hidden;
         border-radius: 5px;
@@ -2346,7 +2346,7 @@ About Area CSS
         background-color: var(--mainColor);
         border-radius: 50%;
         color: var(--whiteColor);
-    
+
         &::after, &::before {
             content: '';
             display: block;
@@ -2369,7 +2369,7 @@ About Area CSS
         &:hover {
             color: var(--whiteColor);
             background-color: var(--blackColor);
-    
+
             &::before, &::after {
                 border-color: var(--blackColor);
             }
@@ -2570,25 +2570,25 @@ About Area CSS
 }
 @keyframes movebounce {
     0% {
-        transform: translateY(0px); 
+        transform: translateY(0px);
     }
     50% {
-        transform: translateY(20px); 
+        transform: translateY(20px);
     }
     100% {
-        transform: translateY(0px); 
-    } 
+        transform: translateY(0px);
+    }
 }
 @keyframes moveleftbounce {
     0% {
-        transform: translateX(0px); 
+        transform: translateX(0px);
     }
     50% {
-        transform: translateX(20px); 
+        transform: translateX(20px);
     }
     100% {
-        transform: translateX(0px); 
-    } 
+        transform: translateX(0px);
+    }
 }
 @keyframes rotateme {
     from {
@@ -2607,7 +2607,7 @@ About Area CSS
     }
     100% {
         transform: scale(.9);
-    } 
+    }
 }
 .about-content {
     .about-list {
@@ -2651,7 +2651,7 @@ About Area CSS
                     border-radius: 50%;
                     font-size: 20px;
                     transition: var(--transition);
-    
+
                     &::after {
                         content: '';
                         position: absolute;
@@ -2670,7 +2670,7 @@ About Area CSS
                     i {
                         background-color: var(--mainColor);
                         color: var(--mainColor);
-    
+
                         &::after {
                             background-color: var(--whiteColor);
                         }
@@ -3200,7 +3200,7 @@ Kindergarten Services Area CSS
 .kids-kite-image {
     text-align: center;
     margin-top: -280px;
-    
+
     img {
         animation: moveleftbounce 4s linear infinite;
     }
@@ -3251,7 +3251,7 @@ Kindergarten Courses Area CSS
             bottom: 0;
             text-align: center;
             line-height: 67px;
-            
+
             span {
                 color: var(--whiteColor);
                 position: absolute;
@@ -4440,11 +4440,11 @@ Courses Details Area CSS
                 display: inline-block;
                 position: relative;
                 top: 1px;
-                
+
                 span {
                     font-size: 19px;
                     color: #cecfd2;
-    
+
                     &.checked {
                         color: orange;
                     }
@@ -4525,7 +4525,7 @@ Courses Details Area CSS
         }
         .courses-review-comments {
             margin-top: 40px;
-        
+
             h3 {
                 border-bottom: 1px solid #f3f3f3;
                 padding-bottom: 12px;
@@ -4541,7 +4541,7 @@ Courses Details Area CSS
                 border-bottom: 1px solid #f3f3f3;
                 padding: 20px 0 20px 110px;
                 position: relative;
-        
+
                 img {
                     position: absolute;
                     left: 0;
@@ -4559,16 +4559,16 @@ Courses Details Area CSS
                 .review-rating {
                     display: block;
                     margin-bottom: 8px;
-        
+
                     .review-stars {
                         display: inline-block;
-        
+
                         i {
                             color: #cecfd2;
                             font-size: 18px;
                             margin-right: 2px;
                             display: inline-block;
-            
+
                             &.checked {
                                 color: orange;
                             }
@@ -4803,7 +4803,7 @@ Courses Details Area CSS
                         color: var(--blackColor);
                         position: relative;
                         border-radius: 2px;
-        
+
                         i {
                             position: absolute;
                             left: 0;
@@ -4838,7 +4838,7 @@ Courses Details Area CSS
     }
     .courses-meta {
         margin-top: 20px;
-        
+
         ul {
             padding-left: 0;
             margin-bottom: 0;
@@ -5276,7 +5276,7 @@ Courses Details Area CSS
             display: inline-block;
             position: relative;
             top: 2px;
-            
+
             span {
                 font-size: 17px;
                 color: #cecfd2;
@@ -5406,7 +5406,7 @@ Courses Details Area CSS
                     font-size: 18px;
                     display: inline-block;
                     margin-right: 2px;
-    
+
                     &.checked {
                         color: orange;
                     }
@@ -5437,7 +5437,7 @@ Courses Details Area CSS
     background-color: var(--whiteColor);
     box-shadow: 0px 8px 16px 0px rgba(146, 184, 255, 0.2);
     padding: 30px;
-    
+
     .info {
         margin-bottom: 0;
         list-style-type: none;
@@ -5492,7 +5492,7 @@ Courses Details Area CSS
     }
     .btn-box {
         margin-top: 35px;
-        
+
         .default-btn {
             display: block;
             padding: {
@@ -5528,7 +5528,7 @@ Courses Details Area CSS
     .courses-share {
         text-align: center;
         margin-top: 25px;
-        
+
         .share-info {
             display: inline-block;
             position: relative;
@@ -5574,7 +5574,7 @@ Courses Details Area CSS
                         color: var(--blackColor);
                         position: relative;
                         border-radius: 2px;
-        
+
                         i {
                             position: absolute;
                             left: 0;
@@ -5835,7 +5835,7 @@ Advisor Area CSS
             li {
                 display: inline-block;
                 margin-right: 3px;
-    
+
                 &:last-child {
                     margin-right: 0;
                 }
@@ -5848,7 +5848,7 @@ Advisor Area CSS
                     color: var(--blackColor);
                     position: relative;
                     border-radius: 2px;
-    
+
                     i {
                         position: absolute;
                         left: 0;
@@ -5959,7 +5959,7 @@ Advisor Area CSS
                     color: var(--blackColor);
                     border-radius: 2px;
                     transition: var(--transition);
-    
+
                     i {
                         position: absolute;
                         left: 0;
@@ -6157,6 +6157,25 @@ Funfacts Area CSS
         size: cover;
         repeat: no-repeat;
     };
+    .sub-title {
+        display: block;
+        text-transform: uppercase;
+        color: var(--mainColor);
+        margin-bottom: 10px;
+        font: {
+            size: 14px;
+            weight: 600;
+        };
+    }
+    h2 {
+        margin: {
+            bottom: 12px;
+        };
+        font: {
+            size: 36px;
+            weight: 800;
+        };
+    }
     .shape4 {
         right: 21%;
         bottom: 41%;
@@ -6432,7 +6451,7 @@ Feedback Area CSS
             a {
                 color: var(--mainColor);
                 font-weight: 700;
-    
+
                 &:hover {
                     text-decoration: underline;
                     color: var(--blackColor);
@@ -6708,7 +6727,7 @@ Feedback Area CSS
 .feedback-area {
     position: relative;
     z-index: 1;
-    
+
     .shape2 {
         bottom: 2%;
     }
@@ -6962,7 +6981,7 @@ Feedback Area CSS
     }
     .client-info {
         margin-top: 25px;
-        
+
         img {
             width: 55px !important;
             height: 55px;
@@ -6971,7 +6990,7 @@ Feedback Area CSS
         }
         .title {
             margin-left: 15px;
-            
+
             h3 {
                 color: var(--whiteColor);
                 margin-bottom: 5px;
@@ -7399,7 +7418,7 @@ Profile Area CSS
             li {
                 display: inline-block;
                 margin-right: 3px;
-    
+
                 &:last-child {
                     margin-right: 0;
                 }
@@ -7412,7 +7431,7 @@ Profile Area CSS
                     color: var(--blackColor);
                     position: relative;
                     border-radius: 2px;
-    
+
                     i {
                         position: absolute;
                         left: 0;
@@ -7444,7 +7463,7 @@ Profile Area CSS
         };
         .nav-tab {
             display: inline-block;
-            
+
             span {
                 display: block;
                 cursor: pointer;
@@ -7497,7 +7516,7 @@ Profile Area CSS
     }
     .tabs-container {
         margin-top: 30px;
-        
+
         .nav-tabset {
             background-color: transparent;
             border-radius: 0;
@@ -7586,7 +7605,7 @@ Profile Area CSS
         }
         .table {
             margin-bottom: 30px;
-            
+
             thead {
                 background-color: var(--blackColor);
                 color: var(--whiteColor);
@@ -7801,7 +7820,7 @@ Video Area CSS
         background-color: var(--mainColor);
         border-radius: 50%;
         color: var(--whiteColor);
-    
+
         &::after, &::before {
             content: '';
             display: block;
@@ -7824,7 +7843,7 @@ Video Area CSS
         &:hover {
             color: var(--whiteColor);
             background-color: var(--blackColor);
-    
+
             &::before, &::after {
                 border-color: var(--blackColor);
             }
@@ -8426,7 +8445,7 @@ Events Details Area CSS
     background-color: #f8f9f8;
     border-radius: 5px;
     padding: 35px;
-    
+
     .info {
         margin-bottom: 0;
         list-style-type: none;
@@ -8513,7 +8532,7 @@ Events Details Area CSS
     .events-share {
         text-align: center;
         margin-top: 25px;
-        
+
         .share-info {
             display: inline-block;
             position: relative;
@@ -8559,7 +8578,7 @@ Events Details Area CSS
                         color: var(--blackColor);
                         position: relative;
                         border-radius: 2px;
-        
+
                         i {
                             position: absolute;
                             left: 0;
@@ -8834,25 +8853,25 @@ Health Services Area CSS
 @keyframes border-transform {
     0%,100% {
         border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
-    } 
+    }
 	14% {
         border-radius: 40% 60% 54% 46% / 49% 60% 40% 51%;
-    } 
+    }
 	28% {
         border-radius: 54% 46% 38% 62% / 49% 70% 30% 51%;
-    } 
+    }
 	42% {
         border-radius: 61% 39% 55% 45% / 61% 38% 62% 39%;
-    } 
+    }
 	56% {
         border-radius: 61% 39% 67% 33% / 70% 50% 50% 30%;
-    } 
+    }
 	70% {
         border-radius: 50% 50% 34% 66% / 56% 68% 32% 44%;
-    } 
+    }
 	84% {
         border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%;
-    } 
+    }
 }
 
 /*================================================
@@ -8933,7 +8952,7 @@ Blog Area CSS
                     left: 29px;
                     right: 7px;
                 };
-                .post-author {        
+                .post-author {
                     img {
                         width: 35px;
                         height: 35px;
@@ -9031,7 +9050,7 @@ Blog Area CSS
                     left: 29px;
                     right: 7px;
                 };
-                .post-author {        
+                .post-author {
                     img {
                         width: 35px;
                         height: 35px;
@@ -9159,7 +9178,7 @@ Blog Area CSS
                     left: 29px;
                     right: 7px;
                 };
-                .post-author {        
+                .post-author {
                     img {
                         width: 35px;
                         height: 35px;
@@ -9385,7 +9404,7 @@ Blog Details Area CSS
                 opacity: 0;
                 visibility: hidden;
                 transition: var(--transition);
-    
+
                 [class*=owl-] {
                     color: #87a1c1;
                     font-size: 18px;
@@ -9446,7 +9465,7 @@ Blog Details Area CSS
                 padding-left: 0;
                 margin-bottom: 0;
                 list-style-type: none;
-    
+
                 li {
                     margin-right: 20px;
                     position: relative;
@@ -9567,7 +9586,7 @@ Blog Details Area CSS
             flex: 0 0 50%;
             max-width: 50%;
             color: var(--optionalColor);
-            
+
             span {
                 display: inline-block;
                 color: var(--blackColor);
@@ -9588,7 +9607,7 @@ Blog Details Area CSS
         .article-share {
             flex: 0 0 50%;
             max-width: 50%;
-            
+
             .social {
                 padding-left: 0;
                 list-style-type: none;
@@ -9618,7 +9637,7 @@ Blog Details Area CSS
                         text-align: center;
                         font-size: 17px;
                         margin-left: 2px;
-        
+
                         &:hover, &:focus {
                             color: var(--mainColor);
                             background-color: transparent;
@@ -10382,7 +10401,7 @@ View All Courses Area CSS
         margin-left: 0;
         position: relative;
         z-index: 1;
-    
+
         img {
             width: auto;
         }
@@ -11086,7 +11105,7 @@ Experience Area CSS
         position: absolute;
         left: 0;
         bottom: 0;
-        z-index: -1; 
+        z-index: -1;
         right: 0;
         top: 0;
         background-color: var(--mainColor);
@@ -11122,7 +11141,7 @@ Experience Area CSS
         background-color: var(--secondaryColor);
         border-radius: 7px;
         color: var(--whiteColor);
-    
+
         &::after, &::before {
             content: '';
             display: block;
@@ -11338,7 +11357,7 @@ Download Syllabus Area CSS
     right: 15%;
     bottom: 0;
     z-index: -1;
-    
+
     img {
         animation: moveleftbounce 10s linear infinite;
     }
@@ -11870,7 +11889,7 @@ Gallery Area CSS
     a {
         display: block;
         border-radius: 5px;
-        
+
         img {
             transition: var(--transition);
         }
@@ -12328,7 +12347,7 @@ Products Details Area CSS
             margin-right: 10px;
             text-align: center;
             display: inline-block;
-            position: relative;    
+            position: relative;
 
             input {
                 height: 50px;
@@ -12390,7 +12409,7 @@ Products Details Area CSS
                     text-align: center;
                     font-size: 17px;
                     margin-left: 5px;
-    
+
                     &:hover, &:focus {
                         color: var(--mainColor);
                         background-color: transparent;
@@ -12552,11 +12571,11 @@ Products Details Area CSS
             }
             .rating {
                 display: inline-block;
-                
+
                 span {
                     font-size: 17px;
                     color: #cecfd2;
-    
+
                     &.checked {
                         color: orange;
                     }
@@ -12580,7 +12599,7 @@ Products Details Area CSS
                 float: left;
                 width: 10%;
                 margin-top: 10px;
-    
+
                 div {
                     font: {
                         size: var(--fontSize);
@@ -12637,7 +12656,7 @@ Products Details Area CSS
         }
         .products-review-comments {
             margin-top: 40px;
-        
+
             h3 {
                 border-bottom: 1px solid #f3f3f3;
                 padding-bottom: 10px;
@@ -12654,7 +12673,7 @@ Products Details Area CSS
                 border-bottom: 1px solid #f3f3f3;
                 padding: 20px 0 20px 110px;
                 position: relative;
-        
+
                 img {
                     position: absolute;
                     left: 0;
@@ -12672,16 +12691,16 @@ Products Details Area CSS
                 .review-rating {
                     display: block;
                     margin-bottom: 8px;
-        
+
                     .review-stars {
                         display: inline-block;
-        
+
                         i {
                             color: #cecfd2;
                             font-size: 18px;
                             display: inline-block;
                             margin-right: 2px;
-            
+
                             &.checked {
                                 color: orange;
                             }
@@ -12756,7 +12775,7 @@ Products Details Area CSS
                 .comment-form-cookies-consent {
                     text-align: left;
                     margin-bottom: 0;
-        
+
                     [type="checkbox"]:checked, [type="checkbox"]:not(:checked) {
                         display: none;
                     }
@@ -12865,7 +12884,7 @@ Cart Area CSS
         tbody {
             tr {
                 border-color: #eaedff;
-                
+
                 td {
                     vertical-align: middle;
                     color: var(--optionalColor);
@@ -12913,7 +12932,7 @@ Cart Area CSS
                             position: relative;
                             text-align: center;
                             display: inline-block;
-                
+
                             input {
                                 height: 45px;
                                 color: var(--blackColor);
@@ -12995,7 +13014,7 @@ Cart Area CSS
         padding-left: 0;
         margin: 0 0 25px;
         list-style-type: none;
-        
+
         li {
             border: 1px solid #eaedff;
             padding: 10px 15px;
@@ -13160,7 +13179,7 @@ Checkout Area CSS
     .order-table {
         table {
             margin-bottom: 0;
-    
+
             thead {
                 tr {
                     border-color: #eaedff;
@@ -13228,7 +13247,7 @@ Checkout Area CSS
         box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
         margin-top: 30px;
         padding: 30px;
-        
+
         .payment-method {
             p {
                 [type="radio"] {
@@ -13341,7 +13360,7 @@ Widget Sidebar CSS
     .widget_search {
         form {
             position: relative;
-            
+
             .screen-reader-text {
                 display: none;
             }
@@ -13404,7 +13423,7 @@ Widget Sidebar CSS
     .widget_odemy_posts_thumb {
         position: relative;
         overflow: hidden;
-        
+
         .item {
             overflow: hidden;
             margin-bottom: 15px;
@@ -13635,7 +13654,7 @@ Widget Sidebar CSS
     .widget_recent_courses {
         position: relative;
         overflow: hidden;
-        
+
         .widget-title {
             margin-bottom: 30px;
         }
@@ -13746,7 +13765,7 @@ Widget Sidebar CSS
     .widget_popular_products {
         position: relative;
         overflow: hidden;
-        
+
         .widget-title {
             margin-bottom: 30px;
         }
@@ -14217,7 +14236,7 @@ FAQ Area CSS
             margin-bottom: 15px;
             background-color: var(--whiteColor);
             box-shadow: 2px 8px 20px 0 rgba(25, 42, 70, 0.13) !important;
-            
+
             &:last-child {
                 margin-bottom: 0;
             }
@@ -14279,7 +14298,7 @@ FAQ Area CSS
                     li {
                         margin-bottom: 12px;
                         color: var(--optionalColor);
-                        
+
                         &:last-child {
                             margin-bottom: 0;
                         }
@@ -14425,7 +14444,7 @@ Coming Soon Area CSS
                     color: #A1A1A1;
                     transition: var(--transition);
                 }
-                &:focus {                    
+                &:focus {
                     &::placeholder {
                         color: transparent;
                     }
@@ -14882,7 +14901,7 @@ Footer Area CSS
             a {
                 color: #ededed;
                 display: inline-block;
-                
+
                 &:hover {
                     color: var(--mainColor);
                 }
@@ -14944,7 +14963,7 @@ Footer Area CSS
             a {
                 color: #ededed;
                 display: inline-block;
-                
+
                 &:hover {
                     color: var(--mainColor);
                 }
@@ -15111,7 +15130,7 @@ Go Top CSS
         opacity: 1;
         visibility: visible;
         bottom: 15px;
-    } 
+    }
     i {
         position: absolute;
         right: 0;
